@@ -1,0 +1,21 @@
+# Start of my Turtle Learning
+# by Onlee Retta
+
+import turtle
+turtle.color("pink")
+
+def back(len):
+  turtle.penup()
+  turtle.backward(len)
+  turtle.pendown()
+  
+def square(size):
+ for i in range(4):
+  turtle.forward(size)
+  turtle.left(90)
+  
+square(100)
+back(80)
+square(75)
+back(55)
+square(50)
